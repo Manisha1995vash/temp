@@ -1,14 +1,15 @@
 package temp;
 import java.util.Scanner;
 
-public class c {
+public class C {
 
 	public static void main(String[] args)
 	{ 
 		// TODO Auto-generated method stub
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
-		int m;
+		int m=0;
+		System.out.print(100);
 		int i,num,t=0,j;
 		String ans[]=new String[n];
 		for(i=0; i<n; i++)
